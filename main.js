@@ -379,7 +379,7 @@ toprow1.appendChild(pawnWg);
 
 let pawnWh = document.createElement("div");
 pawnWh.setAttribute("id", "pawnWh");
-toprowa.appendChild(pawnWh);
+toprow1.appendChild(pawnWh);
 //=========
 let rookieWa = document.createElement("div");
 rookieWa.setAttribute("id", "rookieWa");
@@ -445,7 +445,7 @@ toprow1.appendChild(pawnBg);
 
 let pawnBh = document.createElement("div");
 pawnBh.setAttribute("id", "pawnBh");
-toprowa.appendChild(pawnBh);
+toprow1.appendChild(pawnBh);
 //=========
 let rookieBa = document.createElement("div");
 rookieBa.setAttribute("id", "rookieBa");
@@ -480,6 +480,13 @@ rookieBh.setAttribute("id", "rookieBh");
 toprow1.appendChild(rookieBh);
 
 //==================================================
+//const blackPa = document.querySelector("#pawnBa")
+
+let blkPawnAimg = document.createElement("img");
+blkPawnAimg.setAttribute("id", "blkPawnAimg");
+blkPawnAimg.src = "pawn-147066_1280.png";
+console.log(blkPawnAimg.src)
+
 
 
 }
